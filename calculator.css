@@ -51,7 +51,7 @@ body {
   border-radius: 5px;
 }
 .buttons input[type="button"][value="0"] {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 .buttons input[type="button"]#equal {
   background-color: #ff0000b0;

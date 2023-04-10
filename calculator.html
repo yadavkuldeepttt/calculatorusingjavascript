@@ -12,14 +12,14 @@
         <div class="calculator">
             <!-- for input -->
             <div class="display">
-                <input type="text" placeholder="0">
+                <input type="text" placeholder="0" id="input">
             </div>
             <!-- Buttons -->
             <div class="buttons">
                 <!-- Full erase -->
-                <input type="button" value="C" id="erase">
+                <input type="button" value="C" id="clear">
                 <!-- Erase single value -->
-                <input type="button" value="DEL" class="input-button">
+                <input type="button" value="DEL" id="erase">
                 <!-- Number buttons -->
                 <input type="button" value="/" class="input-button">
                 <input type="button" value="*" class="input-button">
@@ -35,10 +35,16 @@
                 <input type="button" value="2" class="input-button">
                 <input type="button" value="3" class="input-button">
                 <input type="button" value="=" id="equal">
+
+                <input type="button" value="%" class="input-button">
+
                 <input type="button" value="0" class="input-button">
                 <input type="button" value="." class="input-button">
 
             </div>
         </div>
+
+        <!-- javascript -->
+        <script src="calculator.js"></script>
     </body>
 </html>
